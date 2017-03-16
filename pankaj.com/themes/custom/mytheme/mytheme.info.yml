@@ -1,0 +1,10 @@
+## YAML Template.
+name: mytheme
+description: drupal 8 starter theme
+type: theme
+core: 8.x
+stylesheets-remove:
+    - core/themes/stable/css/system/components/align.module.css
+libraries: 
+    - mytheme/global-css
+    - mytheme/global-js
