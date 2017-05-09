@@ -1,0 +1,6 @@
+name: Bootcamp
+description: This is hello module
+type: module
+
+package: Custom
+core: 8.x

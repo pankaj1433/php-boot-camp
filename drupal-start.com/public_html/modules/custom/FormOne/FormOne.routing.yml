@@ -1,0 +1,7 @@
+FormOne.form:
+  path: '/formone'
+  defaults:
+    _title: 'Form One'
+    _form: '\Drupal\FormOne\Form\MyFormOne'
+  requirements:
+    _permission: 'access content'

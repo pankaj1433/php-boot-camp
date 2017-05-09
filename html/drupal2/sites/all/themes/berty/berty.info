@@ -1,0 +1,88 @@
+;Theme info
+name = Berty
+description = Berty ready for use Industries, School, hospital, corporative, travel, fashion, jewellery and any business.
+package = Core
+version = VERSION
+core = 7.x
+screenshot = 'screenshot.png'
+
+
+; Add a style sheet
+stylesheets[all][] = css/bootstrap.min.css
+stylesheets[all][] = css/font-awesome.min.css
+stylesheets[all][] = css/google-maps-builder.min.css
+stylesheets[all][] = css/map-icons.css
+stylesheets[all][] = css/tp_twitter_plugin.css
+stylesheets[all][] = css/animate.css
+stylesheets[all][] = css/owl.carousel.css
+stylesheets[all][] = css/magnific-popup.css
+stylesheets[all][] = css/font-awesome-42.min.css
+stylesheets[all][] = css/style.css
+stylesheets[all][] = css/font-awesome-43.min.css
+stylesheets[all][] = js/style-switcher/color-switcher.css
+stylesheets[all][] = css/update.css
+
+
+; Add a script
+scripts[] = js/jquery/jquery.js
+scripts[] = js/jquery/jquery-migrate.min.js
+scripts[] = js/bootstrap.min.js
+scripts[] = js/jscripts.js
+scripts[] = js/google-maps-builder.min.js
+scripts[] = js/map-icons.js
+scripts[] = js/masonry.min.js
+scripts[] = js/jquery/jquery.masonry.min.js
+scripts[] = js/jquery.easing.1.3.js
+scripts[] = js/jquery.cookie.js
+scripts[] = js/jquery.fitvids.js
+scripts[] = js/jquery.magnific-popup.min.js
+scripts[] = js/jquery.mobilemenu.js
+scripts[] = js/owl.carousel.js
+scripts[] = js/plugins.js
+scripts[] = js/jquery.liMarquee.js
+scripts[] = js/retina-1.1.0.min.js
+scripts[] = js/update.js
+scripts[] = js/scripts.js
+scripts[] = js/jscripts-ftr-min.js
+scripts[] = js/twitter.js
+scripts[] = js/style-switcher/styleselector.js
+
+
+
+;Core regions
+regions[top_header] = 'Top Header'
+regions[top_2_header_left] = 'Top 2 Header Left'
+regions[top_2_header_right] = 'Top 2 Header Right'
+regions[mid_header] = 'Mid Header'
+regions[bot_header] = 'Bot Header'
+regions[main_menu] = 'Main Menu' 
+regions[bot_2_header] = 'Bot 2 Header' 
+regions[top_content] = 'Top Content'
+regions[top_2_content] = 'Top 2 Content'
+regions[content] = 'Main Content'
+regions[mini_sidebar] = 'Mini Sidebar'
+regions[right_sidebar] = 'Right Sidebar'
+regions[footer_menu] = 'Footer Menu'
+regions[footer_widget_1] = 'Footer Widget 1'
+regions[footer_widget_2] = 'Footer Widget 2'
+regions[footer_widget_3] = 'Footer Widget 3'
+regions[footer_bot_right] = 'Footer Bot Right'
+
+
+;Features (core settings)
+features[] = 'logo'
+features[] = 'name'
+features[] = 'node_user_picture'
+features[] = 'comment_user_picture'
+features[] = 'comment_user_verification'
+
+;Breadcrumb
+settings[breadcrumb_display] = 'yes'
+settings[breadcrumb_separator] = ' &#187; '
+settings[breadcrumb_home] = 1
+
+settings[footer_copyright_message] = ' © All rights reserved. Created by <a href="#">Drupalet</a>. '
+
+version = "7.x"
+project = "Berty"
+datestamp = "1365027012"

@@ -1,0 +1,14 @@
+name: 'final slider'
+description: 'image slider'
+type: module
+core: 8.x
+dependencies:
+  - field
+  - file
+  - image
+  - menu_ui
+  - node
+  - path
+  - user
+  - views
+  - views_slideshow

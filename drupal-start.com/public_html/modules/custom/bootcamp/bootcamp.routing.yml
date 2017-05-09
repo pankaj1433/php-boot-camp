@@ -1,0 +1,7 @@
+hello_world.content: 
+  path: '/hello'
+  defaults: 
+    _controller: '\Drupal\bootcamp\Controller\Training::content'
+    _title: 'Hello World Bootcamp'
+  requirements: 
+    _permission: 'pankaj'

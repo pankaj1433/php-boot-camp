@@ -1,0 +1,41 @@
+Avdvdvdcacczcwsdcfvsdczccvf
+    <header id="" class="" role="banner" aria-label="{{ 'Site header'|t }}">
+          <div class="head-span">{{ page.header_one }}</div>
+          <div class="head-span">{{ page.header_two }}</div>
+          <div class="head-span">{{ page.header_three }}</div>
+    </header>
+      <div id="" class="">
+          
+          {% if page.left_sidebar %}
+          <div id="sidebar-first" class="left-sidebar">
+              {{ page.left_sidebar }}
+          </div>
+          {% endif %}
+          
+          <div class="main-content">
+                {{ page.main_content }}
+          </div>
+        
+        {% if page.right_sidebar %}
+          <div id="sidebar-second" class="right-sidebar">
+              {{ page.right_sidebar }}
+          </div>
+        {% endif %}
+      </div>
+      
+    <footer class="">
+      <div class="">
+    {% if page.footer_one or page.footer_two or page.footer_three %}
+        <div class="">
+          {{ page.footer_one }}
+          {{ page.footer_two }}
+          {{ page.footer_three }}
+          </div>
+    {% endif %}
+        {% if page.footer_bottom %}
+          <div class="">
+            {{ page.footer_bottom }}
+          </div>
+        {% endif %}
+      </div>
+    </footer>

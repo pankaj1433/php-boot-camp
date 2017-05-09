@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies: {  }
+name: slider_image_style
+label: 'slider image style'
+effects:
+  78dc61f5-b6e1-47a3-8dfa-48def2dac851:
+    uuid: 78dc61f5-b6e1-47a3-8dfa-48def2dac851
+    id: image_scale
+    weight: 1
+    data:
+      width: 800
+      height: 400
+      upscale: true
+  42e54993-ea7f-483d-bb35-b3cb07e565b2:
+    uuid: 42e54993-ea7f-483d-bb35-b3cb07e565b2
+    id: image_convert
+    weight: 2
+    data:
+      extension: jpg

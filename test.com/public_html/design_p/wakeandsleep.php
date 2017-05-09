@@ -2,6 +2,7 @@
 
 class WebDeveloper {
   private $info = array();
+  //public $info = array();
  /* public function connect() {
     $con = mysql_connect('localhost','root','abcde');
     if(!$con){ 
@@ -9,23 +10,29 @@ class WebDeveloper {
     }
   }*/
   public function __set($item, $value) {
-    $this->info[$item] = $value;
+    //$temp="$item"."[]";
+    $this->info[$item]= $value;
+    //echo "<br>$item<br>";
+    //echo $this->item;
+//    print_r($this->item);
   }
   public  function __get($a){
-      echo $a;
+      return $this->info;
   }
-  public function __sleep() {
+/*  public function __sleep() {
     return array('info');
   }
   public function __wakeup() {
     $this->connect();
-  }
+  }*/
 }
 
 $developer = new WebDeveloper();
-$developer->info = 'Jordizle';
+$developer->one = 'hello';
+$developer->two = 'bye';
+print_r($developer->info);
   
-  print_r($developer->info);
+  //print_r($developer->info);
 
 //$data = serialize($developer);
 //print(unserialize($data));

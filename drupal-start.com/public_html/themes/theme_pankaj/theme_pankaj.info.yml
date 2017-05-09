@@ -1,0 +1,24 @@
+name: theme_pankaj
+type: theme
+description: 'My Custom Theme'
+package: Custom 
+base theme: bartik
+core: '8.x'
+
+libraries:
+    - theme_pankaj/global-css
+    - theme_pankaj/global-js
+    
+regions:
+  header_one: Header One
+  header_two: Header Two
+  header_three: Header three
+  left_sidebar: Left Side Bar
+  right_sidebar: Right Side Bar
+  main_content: Main Content
+  footer_one: Footer One
+  footer_two: Footer Two
+  footer_three: Footer Three
+  footer_bottom: Footer Bottom
+  
+  

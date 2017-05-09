@@ -1,0 +1,36 @@
+<?php
+
+/**
+ * @file
+ * Contains conm.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function conm_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the conm module.
+    case 'help.page.conm':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('My Awesome Module') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function conm_theme() {
+  return [
+    'conm' => [
+      'template' => 'conm',
+      'render element' => 'children',
+    ],
+  ];
+}

@@ -749,10 +749,10 @@ $settings['file_scan_ignore_directories'] = [
  *
  * Keep this code block at the end of this file to take full effect.
  */
-#
-# if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
-#   include $app_root . '/' . $site_path . '/settings.local.php';
-# }
+
+ if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
+   include $app_root . '/' . $site_path . '/settings.local.php';
+ }
 $databases['default']['default'] = array (
   'database' => 'first_drupal',
   'username' => 'root',
@@ -765,3 +765,15 @@ $databases['default']['default'] = array (
 );
 $settings['install_profile'] = 'standard';
 $config_directories['sync'] = 'sites/default/files/config_f1MZpYOy7diMHA7mevSh9tmjzNQyTqg9QQE6Rgw6WDV-Q8-xfIRzXVGd20Y4X9MGGIMS7vh4Qw/sync';
+
+
+$databases['source_database']['default'] = array (
+  'database' => 'migrate_source',
+  'username' => 'root',
+  'password' => 'abcde',
+  'prefix' => '',
+  'host' => 'localhost',
+  'port' => '3306',
+  'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
+  'driver' => 'mysql',
+);

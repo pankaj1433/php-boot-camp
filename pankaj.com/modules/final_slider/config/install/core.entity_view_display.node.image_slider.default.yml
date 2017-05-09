@@ -1,0 +1,40 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.image_slider.field_de
+    - field.field.node.image_slider.field_image_slider
+    - field.field.node.image_slider.field_title_slider
+    - node.type.image_slider
+  module:
+    - image
+    - user
+id: node.image_slider.default
+targetEntityType: node
+bundle: image_slider
+mode: default
+content:
+  field_de:
+    weight: 103
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+  field_image_slider:
+    weight: 101
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+  field_title_slider:
+    weight: 102
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+  links:
+    weight: 100
+hidden: {  }

@@ -2,7 +2,7 @@
 
 class foo {
 
-    /*private $bar=10;
+    private $bar=10;
     public function __get($name) {
 
         echo "Get:";
@@ -12,8 +12,8 @@ class foo {
     public function __set($name, $value) {
 
         echo "Set:$name to $value";
-        $this->$name = $value;
-    }*/
+        $this->name = $value;
+    }
 }
 
 
